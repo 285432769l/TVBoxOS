@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/l285432769/box/raw/master/1.bmp");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
